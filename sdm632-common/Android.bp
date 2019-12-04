@@ -263,23 +263,24 @@ android_app_import {
 android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "motorola",
-	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+	apk: "proprietary/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
+	product_specific: true,
 }
 
 android_app_import {
 	name: "QtiTelephonyService",
 	owner: "motorola",
-	apk: "proprietary/vendor/app/QtiTelephonyService/QtiTelephonyService.apk",
+	apk: "proprietary/product/app/QtiTelephonyService/QtiTelephonyService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	soc_specific: true,
+	product_specific: true,
 }
 
 android_app_import {
@@ -296,12 +297,12 @@ android_app_import {
 android_app_import {
 	name: "datastatusnotification",
 	owner: "motorola",
-	apk: "proprietary/vendor/app/datastatusnotification/datastatusnotification.apk",
+	apk: "proprietary/product/app/datastatusnotification/datastatusnotification.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	soc_specific: true,
+	product_specific: true,
 }
 
 android_app_import {
