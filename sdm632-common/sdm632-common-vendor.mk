@@ -102,6 +102,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sdm632-common/proprietary/product/framework/vendor.qti.ims.callinfo-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
     vendor/motorola/sdm632-common/proprietary/product/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar \
     vendor/motorola/sdm632-common/proprietary/product/framework/vendor.qti.latency-V2.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.latency-V2.0-java.jar \
+    vendor/motorola/sdm632-common/proprietary/product/lib/android.hardware.camera.common@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/android.hardware.camera.common@1.0.so \
+    vendor/motorola/sdm632-common/proprietary/product/lib/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_PRODUCT)/lib/android.hardware.camera.provider@2.4.so \
+    vendor/motorola/sdm632-common/proprietary/product/lib/android.hardware.camera.provider@2.5.so:$(TARGET_COPY_OUT_PRODUCT)/lib/android.hardware.camera.provider@2.5.so \
+    vendor/motorola/sdm632-common/proprietary/product/lib/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/android.hardware.camera.device@1.0.so \
+    vendor/motorola/sdm632-common/proprietary/product/lib/android.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib/android.hardware.camera.device@3.2.so \
+    vendor/motorola/sdm632-common/proprietary/product/lib/android.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_PRODUCT)/lib/android.hardware.camera.device@3.4.so \
+    vendor/motorola/sdm632-common/proprietary/product/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.camera.device@1.0.so \
     vendor/motorola/sdm632-common/proprietary/product/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/motorola/sdm632-common/proprietary/product/lib/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/motorola/sdm632-common/proprietary/product/lib/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.imscmservice@2.1.so \
@@ -125,6 +132,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sdm632-common/proprietary/product/lib/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/motorola/sdm632-common/proprietary/product/lib/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.imsrtpservice@2.0.so \
     vendor/motorola/sdm632-common/proprietary/product/lib/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.imsrtpservice@2.1.so \
+    vendor/motorola/sdm632-common/proprietary/product/lib64/android.hardware.camera.common@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/android.hardware.camera.common@1.0.so \
+    vendor/motorola/sdm632-common/proprietary/product/lib64/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/android.hardware.camera.provider@2.4.so \
+    vendor/motorola/sdm632-common/proprietary/product/lib64/android.hardware.camera.provider@2.5.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/android.hardware.camera.provider@2.5.so \
+    vendor/motorola/sdm632-common/proprietary/product/lib64/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/android.hardware.camera.device@1.0.so \
+    vendor/motorola/sdm632-common/proprietary/product/lib64/android.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/android.hardware.camera.device@3.2.so \
+    vendor/motorola/sdm632-common/proprietary/product/lib64/android.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/android.hardware.camera.device@3.4.so \
+    vendor/motorola/sdm632-common/proprietary/product/lib64/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.camera.device@1.0.so \
     vendor/motorola/sdm632-common/proprietary/product/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/motorola/sdm632-common/proprietary/product/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/motorola/sdm632-common/proprietary/product/lib64/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.imscmservice@2.1.so \
